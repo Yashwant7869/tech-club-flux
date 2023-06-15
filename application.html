@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Talks</title>
+    <link href="Images/Others/Logo_f.ico" rel="icon">
+    <link href="Images/Others/Logo_f.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="CSS/application.css" />
+    <script id="applicationScript" type="text/javascript" src="JS/application.js"></script>
+</head>
+
+<body>
+    <div id="Member_Application" class="Member_Application_Class">
+        <img class="Application_Background_Class" src="Images/Backgrounds/Application_Background.png"
+            srcset="Images/Backgrounds/Application_Background.png 1x">
+        <svg class="Black_Tint">
+            <rect class="Black_Tint_Class" rx="0" ry="0" x="0" y="0" width="1920.5" height="1149.5">
+            </rect>
+        </svg>
+        <svg class="Conatiner">
+            <rect class="Conatiner_Class" rx="27" ry="27" x="0" y="0" width="1398" height="1017">
+            </rect>
+        </svg>
+        <span class="Error">
+            <?php echo $message; ?>
+        </span>
+        <form action="#" method="POST" class="form">
+            <div class="Submit_Button_Class">
+                <button type="submit" name='submit' class="button">SUBMIT</button>
+            </div>
+            <div class="input-group">
+
+                <div class="Departments_Group_Class">
+                    <svg class="Department_Box">
+                        <rect class="Department_Box_Class" rx="27" ry="27" x="0" y="0" width="599.53" height="285.38">
+                        </rect>
+                    </svg>
+                    <div class="Graphic_Design_Checkbox_Class" style="width: 500px">
+                        <input type="checkbox" name="speaker3" value="Y">
+                        <label for="Speaker 3" style="top: 0px; line-height: 1.6;">Mr. Mohit Kanodia - 30th Oct, 6
+                            PM<br>Topic - Digitalisation of Indian Retail</label>
+                    </div>
+                    <div class="Digital_Marketing_Checkbox_Class" style="width: 500px">
+                        <input type="checkbox" name="speaker2" value="Y">
+                        <label for="Speaker 2" style="top: 0px; line-height: 1.6;">Mr. Anand Dalmia - 29th Oct, 6
+                            PM<br>Topic - How fintech is revolutionising our <br> daily lives</label>
+                    </div>
+                    <div class="Data_Analytics_Checkbox_Class" style="width: 500px">
+                        <input type="checkbox" name="speaker1" value="Y">
+                        <label for="Speaker 1" style="top: 0px; line-height: 1.6;">Mr. Harshil Karia - 28th Oct, 6
+                            PM<br>Topic - Leveraging technology to grow <br> brands and services that cater to
+                            brands</label><br>
+                    </div>
+                    <div class="Departments_you_wish_to_apply__Class">
+                        <span>Session(s) you wish to apply to:</span>
+                    </div>
+                </div>
+                <div class="Contact_Number_Group_Class">
+                    <input type="number" name="contact" placeholder="Contact Number" class="input-group__input">
+                </div>
+                <div class="Full_Name_Group_Class">
+                    <input type="text" name="name" placeholder="Name" class="input-group__input">
+                </div>
+                <div class="Mail_ID_Group_Class">
+                    <input type="email" name="email" placeholder="Mail ID" class="input-group__input">
+                </div>
+            </div>
+        </form>
+        <div class="Thank_you_for_taking_the_first_Class">
+            <span>Thank you for taking the first step in expanding your horizons</span>
+
+        </div>
+        <svg class="Underline" viewBox="0 0 75.5 3">
+            <path class="Underline_Class" d="M 0 0 L 75.5 0">
+            </path>
+        </svg>
+        <div class="MEMBER_APPLICATIONS_Class">
+            <span>TECH TALKS </span><span style="color:rgba(79,231,220,1);">REGISTRATIONS</span>
+        </div>
+        <div class="Nav_Bar Nav_Bar_Class">
+            <div class="SYNC_Class">
+                <span>SYNC</span>
+            </div>
+            <div class="SERVICES_Class">
+                <span>SERVICES</span>
+            </div>
+            <div class="EVENTS_Class">
+                <span>EVENTS</span>
+            </div>
+            <img onclick="application.goToTargetView(event)" class="Logo_Class" src="Images/Others/ttwhite.png"
+                srcset="Images/Others/ttwhite.png 1x">
+            <div class="DEPARTMENTS_Class">
+                <span>DEPARTMENTS</span>
+            </div>
+            <div class="ABOUT_Class">
+                <span>ABOUT</span>
+            </div>
+            <div class="HOME_Class">
+                <span>HOME</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
